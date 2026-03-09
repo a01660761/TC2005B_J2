@@ -63,8 +63,8 @@ class AnimatedObject extends GameObject {
             this.spriteRect.y = Math.floor(this.frame / this.sheetCols) * this.spriteRect.height;
             // Restart the time count
             this.totalTime = 0;
-            //console.log(`New Rect:`)
-            //console.log(this.spriteRect)
+            console.log(`New Rect:`)
+            console.log(this.spriteRect)
         }
     }
 }
