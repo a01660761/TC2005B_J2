@@ -124,6 +124,8 @@ class Game {
         // Add audio element
         this.ping = document.createElement("audio");
         this.ping.src = "../assets/audio/4387__noisecollector__pongblipe4.wav";
+        // If we want the audio to repeat
+        // this.ping.loop = true;
 
         // Variables to keep score of the game
         this.pointsRight = 0;
